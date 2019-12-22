@@ -11,7 +11,7 @@ class Page2 extends React.Component {
 
     p2Button1Click = () => {
         window.open(
-            "/", "_self"
+            "/page3", "_self"
         );
     }
 
