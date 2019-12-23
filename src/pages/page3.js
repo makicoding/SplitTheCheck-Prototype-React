@@ -11,19 +11,7 @@ class Page3 extends React.Component {
 
     p3Button1Click = () => {
         window.open(
-            "/", "_self"
-        );
-    }
-
-    p3Button2Click = () => {
-        window.open(
-            "/page7", "_self"
-        );
-    }
-
-    p3Button3Click = () => {
-        window.open(
-            "/", "_self"
+            "/page4", "_self"
         );
     }
 
@@ -33,13 +21,9 @@ class Page3 extends React.Component {
             <div>
 
                 <div className="screenImageContainer">
-                    <img className="screenImage" src={"./assets/images/screens_exported_from_sketch_2x_png/HiFi_iPhone_XS_3.png"} alt={"Sketch Screen"} />
+                    <img className="screenImage" src={"./assets/images/screens_exported_from_sketch_2x_png/HiFi_iPhone_XS_03B.png"} alt={"Sketch Screen"} />
 
                     <Link className="p3Button1" onClick={this.p3Button1Click}></Link>
-
-                    <Link className="p3Button2" onClick={this.p3Button2Click}></Link>
-
-                    <Link className="p3Button3" onClick={this.p3Button3Click}></Link>
                 </div>
 
             </div>
