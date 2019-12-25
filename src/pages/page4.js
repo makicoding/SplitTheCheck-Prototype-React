@@ -11,12 +11,6 @@ class Page4 extends React.Component {
 
     p4Button1Click = () => {
         window.open(
-            "/", "_self"
-        );
-    }
-
-    p4Button2Click = () => {
-        window.open(
             "/page5", "_self"
         );
     }
@@ -27,11 +21,9 @@ class Page4 extends React.Component {
             <div>
 
                 <div className="screenImageContainer">
-                    <img className="screenImage" src={"./assets/images/screens_exported_from_sketch_2x_png/HiFi_iPhone_XS_4.png"} alt={"Sketch Screen"} />
+                    <img className="screenImage" src={"./assets/images/screens_exported_from_sketch_2x_png/HiFi_iPhone_XS_04B.png"} alt={"Sketch Screen"} />
 
                     <Link className="p4Button1" onClick={this.p4Button1Click}></Link>
-
-                    <Link className="p4Button2" onClick={this.p4Button2Click}></Link>
                 </div>
 
             </div>
