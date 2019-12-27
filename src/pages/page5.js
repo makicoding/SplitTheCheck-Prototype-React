@@ -27,7 +27,7 @@ class Page5 extends React.Component {
             <div>
 
                 <div className="screenImageContainer">
-                    <img className="screenImage" src={"./assets/images/screens_exported_from_sketch_2x_png/HiFi_iPhone_XS_5.png"} alt={"Sketch Screen"} />
+                    <img className="screenImage" src={"./assets/images/screens_exported_from_sketch_2x_png/HiFi_iPhone_XS_05B.png"} alt={"Sketch Screen"} />
 
                     <Link className="p5Button1" onClick={this.p5Button1Click}></Link>
 

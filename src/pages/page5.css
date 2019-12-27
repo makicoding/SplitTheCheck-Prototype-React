@@ -1,12 +1,12 @@
 .p5Button1 {
-    width: 29px;
+    width: 138px;
     height: 35px;
 
     border: 4px solid red;
 
     position: absolute;
-    left: 3px;
-    top: 45px;
+    left: 10px;
+    top: 15px;
 }
 
 .p5Button1:hover {
@@ -14,14 +14,14 @@
 }
 
 .p5Button2 {
-    width: 300px;
-    height: 26px;
+    width: 80px;
+    height: 35px;
 
     border: 4px solid red;
 
     position: absolute;
-    left: 34px;
-    top: 726px;
+    right: 10px;
+    top: 15px;
 }
 
 .p5Button2:hover {
