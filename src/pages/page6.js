@@ -11,7 +11,13 @@ class Page6 extends React.Component {
 
     p6Button1Click = () => {
         window.open(
-            "/", "_self"
+            "/page5", "_self"
+        );
+    }
+
+    p6Button2Click = () => {
+        window.open(
+            "/page7", "_self"
         );
     }
 
@@ -21,9 +27,11 @@ class Page6 extends React.Component {
             <div>
 
                 <div className="screenImageContainer">
-                    <img className="screenImage" src={"./assets/images/screens_exported_from_sketch_2x_png/HiFi_iPhone_XS_6.png"} alt={"Sketch Screen"} />
+                    <img className="screenImage" src={"./assets/images/screens_exported_from_sketch_2x_png/HiFi_iPhone_XS_06B.png"} alt={"Sketch Screen"} />
 
                     <Link className="p6Button1" onClick={this.p6Button1Click}></Link>
+
+                    <Link className="p6Button2" onClick={this.p6Button2Click}></Link>
 
                 </div>
 
