@@ -21,6 +21,12 @@ class Page6 extends React.Component {
         );
     }
 
+    p9Button3Click = () => {
+        window.open(
+            "/page11", "_self"
+        );
+    }
+
     render() {
         return (
 
@@ -32,6 +38,8 @@ class Page6 extends React.Component {
                     <Link className="p9Button1" onClick={this.p9Button1Click}></Link>
 
                     <Link className="p9Button2" onClick={this.p9Button2Click}></Link>
+
+                    <Link className="p9Button3" onClick={this.p9Button3Click}></Link>
 
                 </div>
 

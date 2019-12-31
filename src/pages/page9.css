@@ -27,3 +27,18 @@
 .p9Button2:hover {
     cursor: pointer;
 }
+
+.p9Button3 {
+    width: 80px;
+    height: 35px;
+
+    border: 4px solid red;
+
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+
+.p9Button3:hover {
+    cursor: pointer;
+}
