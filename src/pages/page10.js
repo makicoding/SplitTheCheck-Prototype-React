@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import './page6.css';
+import './page10.css';
 import '../components/screen_image/screenImage.css';
 import '../components/page_background/pageBackground.css';
 
@@ -9,15 +9,9 @@ import '../components/page_background/pageBackground.css';
 
 class Page6 extends React.Component {
 
-    p6Button1Click = () => {
+    p10Button1Click = () => {
         window.open(
-            "/page5", "_self"
-        );
-    }
-
-    p6Button2Click = () => {
-        window.open(
-            "/page7", "_self"
+            "/page9", "_self"
         );
     }
 
@@ -27,11 +21,9 @@ class Page6 extends React.Component {
             <div>
 
                 <div className="screenImageContainer">
-                    <img className="screenImage" src={"./assets/images/screens_exported_from_sketch_2x_png/HiFi_iPhone_XS_06B.png"} alt={"Sketch Screen"} />
+                    <img className="screenImage" src={"./assets/images/screens_exported_from_sketch_2x_png/HiFi_iPhone_XS_10B.png"} alt={"Sketch Screen"} />
 
-                    <Link className="p6Button1" onClick={this.p6Button1Click}></Link>
-
-                    <Link className="p6Button2" onClick={this.p6Button2Click}></Link>
+                    <Link className="p10Button1" onClick={this.p10Button1Click}></Link>
 
                 </div>
 

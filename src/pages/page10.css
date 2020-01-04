@@ -1,29 +1,12 @@
-.p6Button1 {
-    width: 138px;
-    height: 35px;
+.p10Button1 {
+    width: 40px;
+    height: 40px;
 
     border: 4px solid red;
 
-    position: absolute;
-    left: 10px;
-    top: 15px;
-}
-
-.p6Button1:hover {
     cursor: pointer;
-}
-
-.p6Button2 {
-    width: 280px;
-    height: 105px;
-
-    border: 4px solid red;
 
     position: absolute;
-    left: 44.5px;
-    top: 260px;
-}
-
-.p6Button2:hover {
-    cursor: pointer;
+    right: 39px;
+    top: 25px;
 }
