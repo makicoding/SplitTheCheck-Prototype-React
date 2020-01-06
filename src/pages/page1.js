@@ -9,6 +9,21 @@ import '../components/page_background/pageBackground.css';
 
 class Page1 extends React.Component {
 
+    componentDidMount() {
+
+
+        document.getElementById("screen1").style.display = "block";
+        document.getElementById("screen2").style.display = "none";
+
+        // After 2 seconds, splashFadeOut is called
+        // setTimeout(splashFadeOut, 2000);
+
+        // splashFadeOut(() => {
+        //     document.getElementById("screen1").style.display = "none";
+        //     document.getElementById("screen2").style.display = "block";
+        // }
+    }
+
     p1Button1Click = () => {
         window.open(
             "/page2", "_self"
@@ -27,7 +42,9 @@ class Page1 extends React.Component {
             <div>
 
                 <div className="screenImageContainer">
-                    <img className="screenImage" src={"./assets/images/screens_exported_from_sketch_2x_png/HiFi_iPhone_XS_01B.png"} alt={"Sketch Screen"} />
+                    <img className="screenImage" id="screen1" src={"./assets/images/screens_exported_from_sketch_2x_png/HiFi_iPhone_XS_01B.png"} alt={"Sketch Screen"} />
+
+                    <img className="screenImage" id="screen2" src={"./assets/images/screens_exported_from_sketch_2x_png/HiFi_iPhone_XS_02B.png"} alt={"Sketch Screen"} />
 
                     <Link className="p1Button1" onClick={this.p1Button1Click}></Link>
 
