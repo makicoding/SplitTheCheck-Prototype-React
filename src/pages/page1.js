@@ -10,18 +10,12 @@ import '../components/page_background/pageBackground.css';
 class Page1 extends React.Component {
 
     componentDidMount() {
-
-
         document.getElementById("screen1").style.display = "block";
         document.getElementById("screen2").style.display = "none";
 
-        // After 2 seconds, splashFadeOut is called
-        // setTimeout(splashFadeOut, 2000);
-
-        // splashFadeOut(() => {
-        //     document.getElementById("screen1").style.display = "none";
-        //     document.getElementById("screen2").style.display = "block";
-        // }
+        // After 3 seconds...
+        setTimeout(() => (document.getElementById("screen2").style.display = "block"), 3000)
+        setTimeout(() => (document.getElementById("screen1").style.display = "none"), 3000)
     }
 
     p1Button1Click = () => {
