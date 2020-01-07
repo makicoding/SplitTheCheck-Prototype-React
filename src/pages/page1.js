@@ -9,25 +9,22 @@ import '../components/page_background/pageBackground.css';
 
 class Page1 extends React.Component {
 
-    componentDidMount() {
-        document.getElementById("screen1").style.display = "block";
-        document.getElementById("screen2").style.display = "none";
-
-        // After 3 seconds...
-        setTimeout(() => (document.getElementById("screen2").style.display = "block"), 3000)
-        setTimeout(() => (document.getElementById("screen1").style.display = "none"), 3000)
-    }
-
-    p1Button1Click = () => {
+    goToPage2 = () => {
         window.open(
             "/page2", "_self"
         );
     }
 
-    p1Button2Click = () => {
-        window.open(
-            "/page4", "_self"
-        );
+    componentDidMount() {
+        document.getElementById("screen1").style.display = "block";
+        document.getElementById("screen2").style.display = "none";
+
+        // After 2.5 seconds...
+        // setTimeout(() => (document.getElementById("screen2").style.display = "block"), 2000)
+        // setTimeout(() => (document.getElementById("screen1").style.display = "none"), 2000)
+        setTimeout(() => (this.goToPage2()), 2500)
+
+        // Create a function where if the user reloads the page it automatically goes back to the splash page
     }
 
     render() {
@@ -39,10 +36,6 @@ class Page1 extends React.Component {
                     <img className="screenImage" id="screen1" src={"./assets/images/screens_exported_from_sketch_2x_png/HiFi_iPhone_XS_01B.png"} alt={"Sketch Screen"} />
 
                     <img className="screenImage" id="screen2" src={"./assets/images/screens_exported_from_sketch_2x_png/HiFi_iPhone_XS_02B.png"} alt={"Sketch Screen"} />
-
-                    <Link className="p1Button1" onClick={this.p1Button1Click}></Link>
-
-                    <Link className="p1Button2" onClick={this.p1Button2Click}></Link>
                 </div>
 
             </div>
