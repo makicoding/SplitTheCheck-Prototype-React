@@ -16,8 +16,8 @@ class Page1 extends React.Component {
     }
 
     componentDidMount() {
-        document.getElementById("screen1").style.display = "block";
-        document.getElementById("screen2").style.display = "none";
+        // document.getElementById("screen1").style.display = "block";
+        // document.getElementById("screen2").style.display = "none";
 
         // After 2.5 seconds...
         // setTimeout(() => (document.getElementById("screen2").style.display = "block"), 2000)
@@ -35,7 +35,7 @@ class Page1 extends React.Component {
                 <div className="screenImageContainer">
                     <img className="screenImage" id="screen1" src={"./assets/images/screens_exported_from_sketch_2x_png/HiFi_iPhone_XS_01B.png"} alt={"Sketch Screen"} />
 
-                    <img className="screenImage" id="screen2" src={"./assets/images/screens_exported_from_sketch_2x_png/HiFi_iPhone_XS_02B.png"} alt={"Sketch Screen"} />
+                    {/* <img className="screenImage" id="screen2" src={"./assets/images/screens_exported_from_sketch_2x_png/HiFi_iPhone_XS_02B.png"} alt={"Sketch Screen"} /> */}
                 </div>
 
             </div>
