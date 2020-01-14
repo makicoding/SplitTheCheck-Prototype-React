@@ -1,0 +1,1 @@
+# SplitTheCheck-Prototype-React
